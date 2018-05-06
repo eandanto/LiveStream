@@ -1,12 +1,9 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 50px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,3 +19,68 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.footer {
+    background-color: #e7e7e7;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    color: grey;
+}
+
+    .footer-text:hover {
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+.img-main-carousel {
+    width: 100%;
+    height: 300px;
+}
+
+.grey {
+    color: grey;
+}
+
+.category-list {
+    padding-top: 20px;
+}
+
+.category-list-sides{
+    padding-top:20px;
+    background-color:lightgray;
+    height:1000px;
+}
+
+.category-list-heading {
+    display: inline;
+    margin-right: 2em;
+}
+
+.category-list-heading-1 {
+    display: inline;
+    margin-right: 1.5em;
+    color: black;
+}
+
+    .category-list-heading-1:hover {
+        color: #d9534f;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+.category-list-heading-2 {
+    display: inline;
+    margin-right: 1.5em;
+    color: grey;
+}
+
+    .category-list-heading-2:hover {
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+    }

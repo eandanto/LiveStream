@@ -8,33 +8,62 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="#">LOGO</a>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">VIDEO</a></li>
+                <li><a href="#">FAMILY</a></li>
+                <li><a href="#">TOP 20</a></li>
+                <li><a href="#">TOP UP</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">FORUM</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><button class="btn btn-danger navbar-btn">Go Live</button></li>
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="container body-content">
+    </nav>
+    <div class="body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
-
+    <div class="row footer">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2">
+            <h4>About Us</h4>
+            <a class="footer-text">Contact Us</a><br />
+            <a class="footer-text">Privacy Policy</a><br />
+            <a class="footer-text">Questionnaire</a><br />
+            <a class="footer-text">User Feedback</a><br />
+            <a class="footer-text">User Agreement</a><br />
+            <a class="footer-text">Go Live</a>
+        </div>
+        <div class="col-lg-2">
+            <h4>Help Center</h4>
+            <a class="footer-text">How to Go Live?</a><br />
+            <a class="footer-text">Cara Register dan Login?</a><br />
+            <a class="footer-text">Bagaimana Cara Chat?</a><br />
+            <a class="footer-text">Cara Top Up di LOGO</a><br />
+            <a class="footer-text">Cara Kirim Gift</a><br />
+            <a class="footer-text">Cara Edit Profile</a><br />
+            <a class="footer-text">More Help</a>
+        </div>
+        <div class="col-lg-2">
+            <h4>Download</h4>
+            <a class="footer-text">Download LOGO for iOS</a><br />
+            <a class="footer-text">Download LOGO for Android</a><br />
+            <a class="footer-text">Download LOGO APK</a>
+        </div>
+        <div class="col-lg-2">
+            <h4>Follow Us</h4>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
