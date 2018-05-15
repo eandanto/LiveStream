@@ -50,10 +50,10 @@ textarea {
     padding-top: 20px;
 }
 
-.category-list-sides{
-    padding-top:20px;
-    background-color:lightgray;
-    height:1000px;
+.category-list-sides {
+    padding-top: 20px;
+    background-color: lightgray;
+    height: 2300px;
 }
 
 .category-list-heading {
@@ -84,3 +84,43 @@ textarea {
         color: black;
         text-decoration: none;
     }
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu-item {
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+.scrollmenu-item:hover {
+    cursor: pointer;
+}
+
+.scrollmenu-image {
+    width: 200px !important;
+    height: 125px !important;
+}
+
+.live-layer {
+    top: 5px;
+    left: 5px;
+    width: 65px;
+    height: 20px;
+    z-index: 1;
+    position: absolute;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+}
+
+.see-more {
+    cursor: pointer;
+}

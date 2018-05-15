@@ -168,6 +168,10 @@
     <Content Include="Resources\images\1.png" />
     <Content Include="Resources\images\2.JPG" />
     <Content Include="Resources\images\3.jpg" />
+    <Content Include="Resources\images\live-example.jpeg" />
+    <Content Include="Resources\images\live-icon.gif" />
+    <Content Include="Resources\images\live-icon.png" />
+    <Content Include="Resources\images\see-more-icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
